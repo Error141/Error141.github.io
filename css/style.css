@@ -1,0 +1,338 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+}
+
+body {
+	background: #222222;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #d4d4d4;
+}
+
+a {
+	color: #d4d4d4;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffcb06;
+}
+
+.main {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+header {
+	background: #222222;
+	padding: 50px 160px 120px 160px;
+}
+
+ul {
+	list-style: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	margin-right: 70px;
+}
+
+.nav-right {
+	margin-right: 30px;
+}
+
+.mail {
+	margin-right: 25px;
+}
+
+.header-bottom {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.header-bottom h1 {
+	font-family: "Courier New";
+	font-size: 45px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+
+.header-bottom-left {
+	margin-left: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header-bottom p {
+	margin-bottom: 60px;
+}
+
+.header-button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 240px;
+	height: 50px;
+	background: #ffcb06;
+	border: none;
+	border-radius: 35px;
+}
+
+.header-button span {
+	font-weight: bold;
+}
+
+.header-button:hover {
+	background: #d4d4d4;
+}
+
+.advantages {
+	padding: 80px 160px 80px 160px;
+	background: #131313;
+	display: flex;
+	justify-content: space-between;
+}
+
+.advantages div p {
+	margin-top: 40px;
+}
+
+.advantages div {
+	width: 180px;
+}
+
+.content {
+	padding: 80px 160px 80px 160px;
+	background: #FFFFFF;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #222222;
+}
+
+.content-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content h1 {
+	font-family: "Courier New";
+	font-size: 24px;
+	color: #131313;
+	margin-bottom: 20px;
+}
+
+.content-top div{
+	width:440px;
+}
+
+.content-top p{
+	margin-top: 30px;
+}
+
+.content-bottom span{
+	font-weight: bold;
+}
+
+.content-bottom li {
+	margin-top:30px;
+	position: relative;
+	margin-left:30px;
+}
+
+.content-bottom {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 85px;
+}
+
+.form h1{
+	font-family: "Courier New";
+	font-size: 24px;
+	color: #131313;
+	margin-bottom: 50px;
+}
+
+.form {
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 160px 80px 160px;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #222222;
+}
+
+.content-bottom div li::before{
+	content: "";
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #ffcb06;
+	left:-25;
+	top: 5px;
+}
+
+.form div span{
+	margin-right:15px;
+}
+
+.table{
+	padding: 80px 160px 80px 160px;
+	font-family: Verdana;
+	font-size: 14px;
+	color: black;
+	background: #222222;
+}
+
+input[type="text"] {
+	color:#222222;
+	font-family: sans-serif;
+	border: none;
+	padding: 15px;
+}
+
+.FIO {
+	width: 440px;
+	margin-bottom: 10px;
+}
+
+.form div {
+	width:440px;
+}
+
+.form h1 {
+	font-family: "Courier New";
+	font-size: 24px;
+	margin-bottom: 55px;
+}
+
+.height {
+	width: 212px;
+	margin-right: 10px;
+}
+
+.phes {
+	width: 212px;
+	margin-bottom: 30px;
+}
+
+.form span {
+	margin-left: 15px;
+	font-size: 13px;
+}
+
+.form-button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 210px;
+	height: 50px;
+	background: #131313;
+	border: none;
+	border-radius: 35px;
+	margin-top:30px;
+	color:#ffffff;
+}
+
+.table h1 {
+	font-family: "Courier New";
+	font-size: 24px;
+	color: #feca30;
+	margin-right: 380px;
+}
+.table {
+	padding: 80px 160px 80px 160px;
+	background-color:#222222;
+}
+
+.table a {
+	color: #feca30;
+	text-decoration: underline;
+}
+
+.table a:hover {
+	color: #ffffff;
+}
+
+.table p {
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 13px;
+	width: 480px;
+}
+
+.table-top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 90px;
+}
+
+.table-bot div {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #555555;
+}
+
+.table-bot div p{
+	width: 180px;
+	padding: 15px 0 15px 15px;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+.black {
+	background-color: #111111;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	padding: 80px 160px 80px 160px;
+	background: #131313;
+}
+
+.footer div {
+	width:180px;
+}
+
+.a {
+	margin-bottom: 115px;
+}
+
+.footer h1 {
+	margin-bottom: 60px;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #555555;
+}
+
+.footer p {
+	margin-bottom: 30px;
+	
+}
+
+.a {
+	font-family: Verdana;
+	font-size: 13px;
+	color: #888888;
+	display: flex;
+	align-items: center;
+}
